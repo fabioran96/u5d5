@@ -54,14 +54,14 @@ public class U5d5Application implements CommandLineRunner {
 			edificioDAO.save(edificio4);
 			edificioDAO.save(edificio5);
 
-			postazioneDAO.save(new Postazione("P001", "Postazione privata con finestra", TipoPostazione.PRIVATO, 1, edificio1));
+			postazioneDAO.save(new Postazione("P001", "Postazione privata con finestra", TipoPostazione.PRIVATO, 6, edificio1));
 			postazioneDAO.save(new Postazione("P002", "Postazione open space vicino alla reception", TipoPostazione.OPENSPACE, 4, edificio1));
 			postazioneDAO.save(new Postazione("P003", "Sala riunioni media", TipoPostazione.SALA_RIUNIONI, 6, edificio2));
 			postazioneDAO.save(new Postazione("P004", "Sala riunioni grande", TipoPostazione.SALA_RIUNIONI, 12, edificio2));
-			postazioneDAO.save(new Postazione("P005", "Postazione privata con vista su Piazza", TipoPostazione.PRIVATO, 1, edificio3));
+			postazioneDAO.save(new Postazione("P005", "Postazione privata con vista su Piazza", TipoPostazione.PRIVATO, 9, edificio3));
 			postazioneDAO.save(new Postazione("P006", "Postazione open space in coworking", TipoPostazione.OPENSPACE, 6, edificio3));
 			postazioneDAO.save(new Postazione("P007", "Sala riunioni piccola", TipoPostazione.SALA_RIUNIONI, 4, edificio4));
-			postazioneDAO.save(new Postazione("P008", "Postazione privata con balcone", TipoPostazione.PRIVATO, 1, edificio4));
+			postazioneDAO.save(new Postazione("P008", "Postazione privata con balcone", TipoPostazione.PRIVATO, 8, edificio4));
 			postazioneDAO.save(new Postazione("P009", "Postazione open space con aria condizionata", TipoPostazione.OPENSPACE, 8, edificio5));
 			postazioneDAO.save(new Postazione("P010", "Sala riunioni executive", TipoPostazione.SALA_RIUNIONI, 10, edificio5));
 
