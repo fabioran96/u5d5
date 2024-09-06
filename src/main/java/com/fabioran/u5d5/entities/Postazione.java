@@ -2,6 +2,7 @@ package com.fabioran.u5d5.entities;
 
 import jakarta.persistence.*;
 
+@Entity
 public class Postazione {
 
     @Id
@@ -21,7 +22,7 @@ public class Postazione {
     public Postazione() {
     }
 
-    public Postazione(String codice, String descrizione, TipoPostazione tipo, Edificio edificio, int numeroMassimoOccupanti) {
+    public Postazione(String codice, String descrizione, TipoPostazione tipo, int numeroMassimoOccupanti, Edificio edificio) {
         this.codice = codice;
         this.descrizione = descrizione;
         this.tipo = tipo;
